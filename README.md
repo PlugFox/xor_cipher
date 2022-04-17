@@ -1,10 +1,10 @@
 # Symmetric XOR cipher library
   
 [![platform_info](https://img.shields.io/pub/v/xor_cipher.svg)](https://pub.dev/packages/xor_cipher)
-[![Actions Status](https://github.com/PlugFox/xor_cipher/actions/workflows/main.yml/badge.svg)](https://github.com/PlugFox/xor_cipher/actions)
+[![Actions Status](https://github.com/PlugFox/xor_cipher/actions/workflows/checkout.yml/badge.svg)](https://github.com/PlugFox/xor_cipher/actions/workflows/checkout.yml)
 [![Coverage](https://codecov.io/gh/PlugFox/xor_cipher/branch/master/graph/badge.svg)](https://codecov.io/gh/PlugFox/xor_cipher)
-[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](https://en.wikipedia.org/wiki/WTFPL)
-[![Linter](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
+[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+[![Linter](https://img.shields.io/badge/style-linter-40c4ff.svg)](https://dart-lang.github.io/linter/lints/)
   
   
 ## Usage example
