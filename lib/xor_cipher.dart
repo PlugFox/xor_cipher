@@ -27,7 +27,7 @@ abstract class XOR {
     bool urlEncode = false,
   }) {
     assert(secret != '', 'Secret cannot be empty string');
-    if (data == '') return '';
+    if (data.isEmpty) return data;
     try {
       final sourceCodes =
           (urlEncode ? Uri.encodeComponent(data) : data).codeUnits;
@@ -84,7 +84,7 @@ abstract class XOR {
     bool urlDecode = false,
   }) {
     assert(secret != '', 'Secret cannot be empty string');
-    if (data == '') return '';
+    if (data.isEmpty) return data;
     try {
       final sourceCodes = base64Url.decode(base64Url.normalize(data));
       final secretCodes =
