@@ -1,0 +1,27 @@
+name: xor_cipher
+description: >
+  Symmetric XOR cipher
+version: 1.0.0
+repository: https://github.com/PlugFox/xor_cipher
+issue_tracker: https://github.com/PlugFox/xor_cipher/issues
+homepage: https://github.com/PlugFox/xor_cipher
+#publish_to: https://pub.dev
+#documentation: https://pub.dev/documentation/xor_cipher/latest/
+#authors:
+#  - Plague Fox <plugfox@gmail.com>
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies:
+  meta: ^1.7.0
+
+dev_dependencies:
+  #build_runner: ^2.1.8
+  #mockito: ^5.1.0
+  coverage: ^1.2.0
+  test: ^1.20.2
+
+#dependency_overrides:
+
+#executables:
