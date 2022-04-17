@@ -1,6 +1,6 @@
 name: xor_cipher
 description: >
-  Symmetric XOR cipher
+  The XOR Encryption algorithm is a effective and easy to implement method of symmetric encryption.
 version: 1.0.0
 repository: https://github.com/PlugFox/xor_cipher
 issue_tracker: https://github.com/PlugFox/xor_cipher/issues
